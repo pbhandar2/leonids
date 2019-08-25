@@ -1,8 +1,9 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
+- name: Emory University
+  link: http://www.emory.edu/home/index.html
+  date: 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  descr: Doctor of Philosophy in Computer Science
 
-- name: Harvard
-  link: http://www.harvard.edu/
-  date: 2007 - 2011
+- name: Trinity College
+  link: https://www.trincoll.edu/
+  date: 2013 - 2017
+  descr: Bachelor of Science in Computer Science and Mathematics

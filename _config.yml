@@ -33,10 +33,10 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: Pranav Bhandari
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: "PhD Student at Emory University"
+  bio: "Storage, Caching, Workload Characterization"
   email:
   disqus-shortname:
   twitter: #username
