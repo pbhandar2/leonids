@@ -17,6 +17,7 @@
     width: 100%;
   }
 }
+
 .cover-card {
   color: $text-color;
   padding: 0 30px;
@@ -27,6 +28,11 @@
     float: none;
     @include media-query($medium-screen) {
       margin-right: 0;
+    }
+  }
+  .propic {
+    @media all and (max-width: 1024px) and (min-width: 0px) {
+      display: none;
     }
   }
   .author_name {
