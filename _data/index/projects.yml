@@ -1,19 +1,15 @@
 - name: File System Cache Tuning
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+  descr: "Taking IBM GPFS as an example, I am studying how file system caches can be tuned. I am investigating the relationship between the file system cache configuration (size, prefetch, ditry data ratio) and the features of the workload (I/O rate, reuse distance)."
+
 
 - name: Machine Learning in Workload Characterization
   descr: "Workloads comprise of different features. What features of workloads matter when it "
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+
 
 - name: Multi-Tier Caching
   descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+
 
 - name: Shuffled Frog Leaping Algorithm for 0/1 Knapsack Problem (2014)
   descr: "Implementation of Discrete Shuffled Frog Leaping Algorithm to solve the 0/1 knapsack problem on the GPU."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+

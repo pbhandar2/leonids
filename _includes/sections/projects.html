@@ -1,3 +1,18 @@
+<h1><span data-i18n="skills.my_skills">Research</span></h1>
+
+<div class="row">
+    <div class="col">
+        <p style="margin-bottom: 10">
+        The efficiency of a system is determined by how well its’ design is suited to the workload it is serving and the optimization goal (cache hit rate, energy,  message traffic). But how do we evaluate what kind of workload is a system serving? Are qualitative descriptions like ‘write heavy’, ‘large sequential reads’ enough? <a href="http://www.mathcs.emory.edu/~avani/wildani_adams_mascots_2015.pdf">No, they are not. </a> Workloads are dynamic and complicated; therefore, we need a set of quantifiable features that are related to the optimization goal in order to help make the system more workload aware. Here are some of the questions that I think about most in my research. 
+        </p>
+        <ul>
+          <li><strong>Workload Feature Analysis: </strong>What are the features of the workload that are important to your optimization goal? How important are each feature? How do we predict the response of a system to a workload with a set of relevant features? </li>
+          <li><strong>Workload Data Collection: </strong>How do you collect the features of the workload? What is the tradeoff between overhead and the information gained from the various ways we can collect the features of the workload? (Tracing an entire system vs tracing just the block accesses vs sampling block accesses) </li>
+          <li><strong>System Design and Tuning: </strong>What are the ideal system design choices for a given workload? How can a system be tuned when workload changes? What is the cost of tuning? How often should a system be evaluated and tuned?</li>
+        </ul>
+    </div>
+</div>
+
 <h1><span data-i18n="skills.my_skills">Projects</span></h1>
 
 {% for project in site.data.index.projects %}
