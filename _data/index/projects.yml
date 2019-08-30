@@ -1,8 +1,8 @@
 - name: Skeletor
   descr: "Skeletor is an workload characterization tool for block I/O traces."
 
-- name: Multi-Tier Cache Simulator
-  descr: "Multi-tier simulator is based on PyMimircache by Junchen Yang. Multi-Tier"
+- name: PyMimircache
+  descr: "PyMimircache is an open source cache simulation framework developed by Junchen Yang as part of the Emory SimBioSys Lab. I implemented miniature-simulations of a workload based on a paper in ATC'19. "
 
-- name: Shuffled Frog Leaping Algorithm for 0/1 Knapsack Problem (2014)
-  descr: "Implementation of Discrete Shuffled Frog Leaping Algorithm to solve the 0/1 knapsack problem on the GPU."
+- name: Multi-Tier Cache Simulator
+  descr: "I am working on a multi-tier simulation framework based on PyMimircache. The goal is to be able to simulate and experiment with different additional complexities having multiple tiers in the cache brings such as data placement, replacement policies, devices and their characteristics at each layer."
