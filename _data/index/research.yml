@@ -1,0 +1,8 @@
+- name: File System Cache Tuning
+  descr: "Taking IBM GPFS as an example, I am studying how file system caches can be tuned. I am investigating the relationship between the file system cache configuration (size, prefetch, write flush) and the features of the workload (I/O rate, reuse distance). My goal is to create a tool that will provide recommendations regarding file system configuration based on the workload. "
+
+- name: Multi-Tier Caching
+  descr: "Multi-tier caching is becoming more relevant as the choice of devices that can be used as a cache is expanding. For a given workload, there can be various configurations that would be ideal depending on the performance and cost constraints. Our goal is to develop a framework for workload characterization of multi-tier caching workloads."
+
+- name: Shuffled Frog Leaping Algorithm for 0/1 Knapsack Problem (2014)
+  descr: "Implementation of Discrete Shuffled Frog Leaping Algorithm to solve the 0/1 knapsack problem on the GPU."
