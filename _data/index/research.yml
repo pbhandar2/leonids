@@ -1,5 +1,5 @@
-- name: File System Cache Tuning
-  descr: "Taking IBM GPFS as an example, I am studying how file system caches can be tuned. I am investigating the relationship between the file system cache configuration (size, prefetch, write flush) and the features of the workload (I/O rate, reuse distance). My goal is to create a tool that will provide recommendations regarding file system configuration based on the workload. "
+- name: Filesystem Cache Tuning
+  descr: "Filesystems have default cache parameter but the general parameters are not optimal for all workloads. We analyze application I/O pattern in order to tune the cache configurations of a filesystem. We use traces from applications running on IBM GPFS to tune pagepool parameters. Pagepool is the GPFS page cache. It does not use the Linux page cache. Our goal is to develop a tool that can make filesystem cache recommendation based on periodic sampling of the workload."
 
 - name: Multi-Tier Caching
-  descr: "Multi-tier caching is becoming more relevant as the choice of devices that can be used as a cache is expanding. For a given workload, there can be various configurations that would be ideal depending on the performance and cost constraints. Our goal is to develop a framework for workload characterization of multi-tier caching workloads."
+  descr: "With the availability of multiple devices for caching, multi-tier solutions have more potential than ever. For a given workload, there can be various configurations that would be ideal depending on the performance and cost constraints. Our goal is to develop a framework for workload characterization of multi-tier caching workloads in order to design workload aware multi-tier cache systems."

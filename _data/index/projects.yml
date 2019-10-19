@@ -1,5 +1,5 @@
 - name: I/O Workload Classification using CNN
-  descr: We convert publicly available block I/O workloads into access pattern images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can convery different kind of workload properties depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
+  descr: We convert block I/O into access pattern images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can mean different things depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
   pdf: https://drive.google.com/file/d/1ToPLchAVjkT8cyXZ1S00UnK0_QntLGgO/view?usp=sharing
 
 - name: PyMimircache
@@ -7,7 +7,7 @@
   github: https://github.com/1a1a11a/PyMimircache
 
 - name: akamaiSimulator
-  descr: "A prototype multi-tier cache simulator using PyMimircache developed as a part of the smart cache project by Junchen Yang. I implemented the check for testing if a hit in L1 would have been a hit in L2 as well."
+  descr: "A prototype multi-tier cache simulator using PyMimircache developed as a part of the smart cache project by Junchen Yang. I implemented the check for testing if a hit in L1 would have been a hit in L2 as well to determine the L1/L2 split."
   github: https://github.com/1a1a11a/akamaiSimulator
 
 - name: Multi-Tier Cache Simulator
