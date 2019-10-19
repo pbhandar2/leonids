@@ -1,5 +1,5 @@
 - name: I/O Workload Classification using CNN
-  descr: We convert publicly available block I/O workloads into bitmap images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can convery different kind of workload properties depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
+  descr: We convert publicly available block I/O workloads into access pattern images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can convery different kind of workload properties depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
   pdf: https://drive.google.com/file/d/1ToPLchAVjkT8cyXZ1S00UnK0_QntLGgO/view?usp=sharing
 
 - name: PyMimircache
