@@ -46,6 +46,9 @@
                 {% if project.website %}
                 <a href="{{ project.website }} "><i class="fa fa-fw fa-home"></i>Homepage</a>
                 {% endif %}
+                {% if project.pdf %}
+                <a href="{{ project.pdf}} "><i class="fa fa-file-pdf"></i>PDF</a>
+                {% endif %}
 
             </div>
     </div>
@@ -59,7 +62,7 @@
                 <p style="margin: 0">{{ project.authors }}</p>
                 <p style="margin: 0">{{ project.conference }}</p>
                 {% if project.link %}
-                <a href="{{ project.link}} "><i class="far fa-file-pdf"></i>PDF</a>
+                <a href="{{ project.link}} "><i class="fa fa-file-pdf"></i>PDF</a>
                 {% endif %}
             </div>
     </div>

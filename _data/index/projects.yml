@@ -1,8 +1,14 @@
-- name: Skeletor
-  descr: "Skeletor is an workload characterization tool for block I/O traces."
+- name: I/O Workload Classification using CNN
+  descr: We convert publicly available block I/O workloads into bitmap images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can convery different kind of workload properties depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
+  pdf: https://drive.google.com/file/d/1ToPLchAVjkT8cyXZ1S00UnK0_QntLGgO/view?usp=sharing
 
 - name: PyMimircache
-  descr: "PyMimircache is an open source cache simulation framework developed by Junchen Yang as part of the Emory SimBioSys Lab. I implemented miniature-simulations of a workload based on a paper in ATC'19. "
+  descr: "PyMimircache is an open source cache simulation framework developed by Junchen Yang as part of the Emory SimBioSys Lab. I implemented miniature-simulations of a workload based on paper in FAST'15: Efficient MRC Construction with SHARDS by Carl A. Waldspurger, Nohhyun Park, Alexander Garthwaite, and Irfan Ahmad, CloudPhysics, Inc."
+  github: https://github.com/1a1a11a/PyMimircache
+
+- name: akamaiSimulator
+  descr: "A prototype multi-tier cache simulator using PyMimircache developed as a part of the smart cache project by Junchen Yang. I implemented the check for testing if a hit in L1 would have been a hit in L2 as well."
+  github: https://github.com/1a1a11a/akamaiSimulator
 
 - name: Multi-Tier Cache Simulator
   descr: "I am working on a multi-tier simulation framework based on PyMimircache. The goal is to be able to simulate and experiment with different additional complexities having multiple tiers in the cache brings such as data placement, replacement policies, devices and their characteristics at each layer."

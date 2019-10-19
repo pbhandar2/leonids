@@ -1,19 +1,17 @@
 ---
 layout: post
-title: Sample Post
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
-categories: [hello world]
+title: Blog Begins!
+excerpt: "I start blogging! A short post regarding why I want to blog and what I am considering blogging about."
+categories: [personal, blog]
 tags: [first, experiment]
 comments: true
-image:
-  feature: https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250
-  credit: thomas shellberg
-  creditlink: https://unsplash.com/photos/Ki0dpxd3LGc
 ---
 
-## HTML Elements
+I have always maintained a research journal where I write about research ideas and progress. I noticed that the way I write in my journal was very casual and unorganized. Only I can decipher the journal entries and that is the opposite of the type of writing that I should be practising. I decided to have a blog in my personal website where I would write about research and personal experiences to work my writing muscles. Another motivation towards starting a blog is to write about things that I have learned so that I can understand it even better à la Feynman Technique. 
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+
+
+<!-- When I was looking for a theme for my website for graduate school, I wanted one with blog support. 
 
 # Heading 1
 
@@ -31,7 +29,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
 
-![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
+
 
 *This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That’s a citation). Underline.Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
 
@@ -96,4 +94,4 @@ Make any link standout more when applying the `.btn` class.
 ## Notices
 
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
-{: .notice}
+{: .notice} -->
