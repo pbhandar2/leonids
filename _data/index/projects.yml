@@ -12,3 +12,7 @@
 
 - name: Multi-Tier Cache Simulator
   descr: "I am working on a multi-tier simulation framework based on PyMimircache. The goal is to be able to simulate and experiment with different additional complexities having multiple tiers in the cache brings such as data placement, replacement policies, devices and their characteristics at each layer."
+
+- name: Using Smart Agents to Improve Connectivity in a Segmented Multi-Radio Wireless Network using SDNs
+  descr: "The issue of scalability is one of the biggest problems in the area of wireless mesh networking hindering its wide adoption despite the obvious benefits. Being an inexpensive approach compared to other network model, wireless mesh network is a perfect tool to connect underprivileged areas to the global network. We introduce a new component in our network model called the smart agent which has a bird’s eye view of the network and we use this information to implement policies that influence the connection of the second interface of multi-radio nodes."
+  pdf: https://drive.google.com/file/d/1RApDKfDTDylLbCgutMSqm5biPGwdFgLq/view?usp=sharing
