@@ -1,8 +1,8 @@
-- name: Shuffled Frog Leaping Algorithm for 0/1 Knapsack Problem on the GPU
-  authors: Pranav Bhandari, Rahul Chandrashekhar, Peter Yoon
-  conference: CSC'15 - The 2015 International Conference on Scientific Computing, Las Vegas, Nevada
-  link: https://drive.google.com/file/d/0B3kODRL6LYxaczRpdFVCVEQxSDA/view?usp=sharing
 - name: Desperately Seeking ... Optimal Multi-Tier Cache Configurations
   authors: Tyler Estro, Pranav Bhandari, Avani Wildani, Erez Zadok
   conference: 12th {USENIX} Workshop on Hot Topics in Storage and File Systems (HotStorage 20)
   link: https://www.usenix.org/system/files/hotstorage20_paper_estro.pdf
+- name: Shuffled Frog Leaping Algorithm for 0/1 Knapsack Problem on the GPU
+  authors: Pranav Bhandari, Rahul Chandrashekhar, Peter Yoon
+  conference: CSC'15 - The 2015 International Conference on Scientific Computing, Las Vegas, Nevada
+  link: https://drive.google.com/file/d/0B3kODRL6LYxaczRpdFVCVEQxSDA/view?usp=sharing
