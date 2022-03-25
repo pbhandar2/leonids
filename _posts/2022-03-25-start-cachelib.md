@@ -1,14 +1,17 @@
 ---
 layout: post
-title: Blog Begins!
-excerpt: "I start blogging! A short post regarding why I want to blog and what I am considering blogging about."
-categories: [personal, blog]
-tags: [first, experiment]
+title: Studying CacheLib!
+excerpt: "I start blogging! I will do a series of post as I understand and configure CacheLib."
+categories: [research, cache]
+tags: [cachelib, cache]
 comments: true
 ---
 
-I have always maintained a research journal where I write about research ideas and progress. I noticed that the way I write in my journal was very casual and unorganized. Only I can decipher the journal entries and that is the opposite of the type of writing that I should be practising. I decided to have a blog in my personal website where I would write about research and personal experiences to work my writing muscles. Another motivation towards starting a blog is to write about things that I have learned so that I can understand it even better à la Feynman Technique. 
+My research interest lies in efficiently configuring storage caches. While there are caching theories that apply across different types of caches like processor cache, web cache and storage cache, there are differences in constraints and requirements. For instance, processor caches are more sensitive to overhead compared to storage and web caches. Therefore, not all cache design and optimization techniques are translatable from one type of cache to another and configuring each type of cache has its own set of challenges. 
 
+A large part of my struggle in graduate school has been not being able to try out my ideas for storage cache configuration on real systems and having to rely on simulations. Whether or not simulations are enough depends on the type of research. My research deals with using heterogeneous storage devices to form a cache with multiple tiers. There are complex interactions between device properties of each cache tier that influence performance apart from just cache hits. This is part of the reason why my research struggled for a long time as I was relying on simulations and analysis and making assumptions about device performance when working on multi-tier cache research. Writing my own caching system that could pass as a “real” system where ideas can be tested seemed daunting, or even impossible. 
+
+Then, CacheLib was released by Facebook, now called Meta. It is a pluggable cache engine that is widely used in Meta. I am documenting my journey in understanding the intricacies of implementing a production level cache through my study of the CacheLib library and utilizing CacheLib to come up with efficient storage configurations (single or multi-tier) based on the workload and device properties. 
 
 
 <!-- When I was looking for a theme for my website for graduate school, I wanted one with blog support. 
