@@ -6,8 +6,9 @@
 title: Pranav Bhandari
 email:
 description: 
-url: https://pbhandar2.github.io/personal-web/
 keywords: ["blog", "jekyll"]
+baseurl: /
+url: https://pbhandar2.github.io/personal-web/
 
 #
 ###################################
