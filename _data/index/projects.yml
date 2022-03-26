@@ -1,5 +1,5 @@
 - name: Cydonia 
-  descr: Cydonia is a library for workload analysis for multi-tier caching. Our work based on Cydonia is currently under review at SYSTOR'22. The repository for this analysis tool will be made public soon. 
+  descr: Cydonia is a library to analyze traces for multi-tier caching. Our work based on Cydonia is currently under review at SYSTOR'22. The repository for this analysis tool will be made public soon. 
 
 - name: I/O Workload Classification using CNN
   descr: We convert block I/O into access pattern images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can mean different things depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
