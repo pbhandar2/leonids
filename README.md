@@ -8,7 +8,8 @@ Theme: https://github.com/renyuanz/leonids
 ```
 git clone https://github.com/pbhandar2/personal-web/
 cd personal-web
-jekyll server
+bundle install 
+bundle exec jekyll serve
 ```
 
 Blog at `http://localhost:4000` 
