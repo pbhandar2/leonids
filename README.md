@@ -1,6 +1,4 @@
-# Update 22/10/2019
-
-My personal website for blogging and 
+# Personal Website
 
 Theme: https://github.com/renyuanz/leonids
 
