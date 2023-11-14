@@ -1,8 +1,7 @@
 - name: Guiding Simulations of Multi-Tier Storage Caches Using Knee Detection
   authors: Tyler Estro, Mário Antunes, Pranav Bhandari, Anshul Gandhi, Geoff Kuenning, Yifei Liu, Carl Waldspurger, Avani Wildani and Erez Zadok
   conference: 31st International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS 2023)
-  link: 
-
+  link:
 - name: Desperately Seeking ... Optimal Multi-Tier Cache Configurations
   authors: Tyler Estro, Pranav Bhandari, Avani Wildani, Erez Zadok
   conference: 12th {USENIX} Workshop on Hot Topics in Storage and File Systems (HotStorage 20)
