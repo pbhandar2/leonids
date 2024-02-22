@@ -1,14 +1,34 @@
 - name: CacheLib
-  descr: Extended CacheBench to replay block traces using the CacheLib cache engine.
+  descr: Developed a block storage system stressor using the C++ cache engine CacheLib to cache the data and libaio to transfer data to and from the backing store. Replayed diverse production workloads across different types of storage server that add up to more than 10 years of compute time to derive insights about sizing multiple cache tiers, selecting storage devices, and improving cost efficiency.
   github: https://github.com/pbhandar2/CacheLib 
-- name: I/O Workload Classification using CNN
-  descr: We convert block I/O into access pattern images. We classify these images based on the labels which is determined by the source of the data. We show that workload labels can mean different things depending on the dataset. We analyze images from the CNN layers in order to analyze the features being used for classification. 
-  pdf: https://drive.google.com/file/d/1ToPLchAVjkT8cyXZ1S00UnK0_QntLGgO/view?usp=sharing
-
+  pdf: https://drive.google.com/file/d/1pvBJQ8XuQnoDojeZ9aBJckpswfEVQ15s/view?usp=sharing
+  
+- name: Cydonia
+  descr: "A python library to analyze and sample block storage traces. Implemented random spatial sampling and augmented it to improve performance for block storage traces."
+  github: https://github.com/pbhandar2/Cydonia
+  
 - name: PyMimircache
   descr: "PyMimircache is an open source cache simulation framework developed by Junchen Yang as part of the Emory SimBioSys Lab. I implemented miniature-simulations of a workload based on paper in FAST'15: Efficient MRC Construction with SHARDS by Carl A. Waldspurger, Nohhyun Park, Alexander Garthwaite, and Irfan Ahmad, CloudPhysics, Inc."
   github: https://github.com/1a1a11a/PyMimircache
 
+- name: I/O Workload Classification using CNN
+  descr: Used a Convolutional Neural Network (CNN) to classify block traces. Each trace was converted into access plot images with block addresses on the y-axis and time on the x-axis. These images are later classified by the CNN.
+  pdf: https://drive.google.com/file/d/1_lRWztS-KB1eU7C59_MBHca2dR31rIun/view?usp=sharing
+
+- name: MT Cache Prediction
+  descr: Using performance data from block trace replay, we used random forest regression to predict the optimal split of budget between DRAM and SSD for multi-tier caching. 
+  pdf: https://drive.google.com/file/d/1LyxUOwt5zLvSLVN8wtmhZURwxqY5EU1m/view?usp=sharing
+
+- name: KubeCacheFS
+  descr: Developed an in-memory, FUSE filesystem to cache data from Kubernetes volumes. Allows users to customize replacement policy and selectively cache directories.
+  github: https://github.com/pbhandar2/KubeCacheFS/
+  pdf: https://drive.google.com/file/d/1gG3h5-22CfyKWQzVGINTzqI_A5n7g48l/view?usp=sharing
+  
 - name: Using Smart Agents to Improve Connectivity in a Segmented Multi-Radio Wireless Network using SDNs
-  descr: "The issue of scalability is one of the biggest problems in the area of wireless mesh networking hindering its wide adoption despite the obvious benefits. Being an inexpensive approach compared to other network model, wireless mesh network is a perfect tool to connect underprivileged areas to the global network. We introduce a new component in our network model called the smart agent which has a bird’s eye view of the network and we use this information to implement policies that influence the connection of the second interface of multi-radio nodes."
+  descr: "Being an inexpensive approach compared to other network model, wireless mesh networks(WMN) are a perfect tool to connect underprivileged areas to the global network. We analyze how we can improve connectivity of WMNs using limited multi-radio nodes which are expensive."
   pdf: https://drive.google.com/file/d/1RApDKfDTDylLbCgutMSqm5biPGwdFgLq/view?usp=sharing
+
+- name: Trace Analysis Website
+  descr: "Created a website to extract features from file system traces and display them. Trace files were stored in S3, processed in chunks using Lambda functions, and the metadata was stored in DynamoDB. The trace features were visualized using d3.js."
+
+
