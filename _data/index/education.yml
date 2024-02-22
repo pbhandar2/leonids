@@ -1,7 +1,12 @@
 - name: Emory University
   link: http://www.emory.edu/home/index.html
   date: 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: Doctor of Philosophy in Computer Science
+  descr: Doctor of Philosophy in Computer Science and Informatics
+
+- name: Emory University
+  link: http://www.emory.edu/home/index.html
+  date: 2017 - 2020
+  descr: Master of Computer Science and Informatics
 
 - name: Trinity College
   link: https://www.trincoll.edu/
